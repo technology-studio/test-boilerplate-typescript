@@ -1,6 +1,8 @@
+#!/usr/bin/env bash
+
 LATEST=$(
   git ls-remote -h git@bitbucket.org:technology-studio/test-boilerplate-private-typescript.git |
-  pcregrep -o1 "([\w]*)\trefs\/heads\/main"
+  grep refs/heads/main | awk '{ print $1 }'
 )
 CURRENT=$(cat .boilerplate-version)
 echo "Latest version: $LATEST"
@@ -10,4 +12,3 @@ if [ "$LATEST" != "$CURRENT" ]; then
   exit 1
 fi
 echo "✅ Boilerplate versions match!"
-exit 0
