@@ -1,3 +1,3 @@
-# Test boilerplate private typescript #
+# Test boilerplate typescript #
 
-Test boilerplate private typescript
+Test boilerplate typescript

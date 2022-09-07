@@ -1,20 +1,20 @@
 {
-  "name": "@txo/test-boilerplate-private-typescript",
+  "name": "@txo/test-boilerplate-typescript",
   "version": "0.0.0",
-  "description": "Technology Studio - Test boilerplate private typescript",
+  "description": "Technology Studio - Test boilerplate typescript",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/technology-studio/test-boilerplate-private-typescript.git"
+    "url": "https://github.com/technology-studio/test-boilerplate-typescript.git"
   },
   "author": {
     "name": "Technology Studio",
     "email": "npm@technologystudio.sk",
-    "url": "https://bitbucket.org/technology-studio/"
+    "url": "https://github.com/technology-studio/"
   },
   "license": "UNLICENSED",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "yarn build:clean && yarn build:lib",
     "build:clean": "yarn rimraf lib",
