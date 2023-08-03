@@ -3425,7 +3425,6 @@ escape-string-regexp@^4.0.0:
 
 "eslint-config-standard-with-typescript@git+https://github.com/technology-studio-forks/eslint-config-standard-with-typescript.git":
   version "36.0.0"
-  uid "9cae293318a111911178737ae4159896c19aa700"
   resolved "git+https://github.com/technology-studio-forks/eslint-config-standard-with-typescript.git#9cae293318a111911178737ae4159896c19aa700"
   dependencies:
     "@typescript-eslint/parser" "^6.0.0"
@@ -3441,7 +3440,7 @@ eslint-config-txo-typescript@^3.3.1:
   resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-3.3.1.tgz#0ca22cbb81219bcf1f5799578a288d0093c1af51"
   integrity sha512-gsGYRnvxM8VcpYE8kGWDaPKCeCwQe2YU+bMbE4SgcRk7wDCy4Lu+5EX87tQTcfLSOlGDPeH5NUt33TjdKRg3Kg==
   dependencies:
-    eslint-config-standard-with-typescript "git+https://github.com/technology-studio-forks/eslint-config-standard-with-typescript.git"
+    eslint-config-standard-with-typescript "https://github.com/technology-studio-forks/eslint-config-standard-with-typescript"
     eslint-import-resolver-typescript "^3.5.5"
 
 eslint-formatter-pretty@^5.0.0:
