@@ -9,9 +9,4 @@ on:
 
 jobs:
   lint:
-    name: Lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: technology-studio/github-workflows/.github/actions/install-dependencies@main
-      - run: yarn lint
+    uses: technology-studio/github-workflows/.github/workflows/_code-style.yml@main

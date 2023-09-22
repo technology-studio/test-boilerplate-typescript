@@ -6,7 +6,4 @@ on:
 
 jobs:
   release:
-    name: Release
-    runs-on: ubuntu-latest
-    steps:
-      - uses: technology-studio/github-workflows/.github/workflows/_release.yml@main
+    uses: technology-studio/github-workflows/.github/workflows/_release.yml@main

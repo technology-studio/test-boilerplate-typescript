@@ -9,7 +9,4 @@ on:
 
 jobs:
   main:
-    name: Ensure semantic PR title
-    runs-on: ubuntu-latest
-    steps:
-      - uses: technology-studio/github-workflows/.github/workflows/_pr.yml@main
+    uses: technology-studio/github-workflows/.github/workflows/_pr.yml@main
