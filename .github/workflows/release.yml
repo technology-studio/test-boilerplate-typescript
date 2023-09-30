@@ -6,4 +6,6 @@ on:
 
 jobs:
   release:
+    name: '/'
     uses: technology-studio/github-workflows/.github/workflows/_release.yml@main
+    secrets: inherit

@@ -9,4 +9,5 @@ on:
 
 jobs:
   test:
+    name: '/'
     uses: technology-studio/github-workflows/.github/workflows/_test.yml@main
