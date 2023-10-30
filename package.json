@@ -38,16 +38,13 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^17.8.1",
-    "@commitlint/config-conventional": "^17.8.1",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
     "@txo-peer-dep/log": "^4.0.2",
+    "@txo/commitlint": "^1.0.3",
     "@txo/log-console": "^3.0.0",
+    "@txo/semantic-release": "^1.0.0",
     "@types/jest": "^29.5.6",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
-    "commitizen": "^4.3.0",
     "concurrently": "^8.2.2",
     "eslint": "^8.52.0",
     "eslint-config-txo-typescript": "^3.4.0",
@@ -62,14 +59,7 @@
     "lint-staged": "^15.0.2",
     "npm-check-updates": "^16.14.6",
     "rimraf": "^5.0.5",
-    "semantic-release": "^22.0.5",
-    "semantic-release-slack-bot": "^4.0.2",
     "ts-jest": "^29.1.1",
     "typescript": "^5.2.2"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
