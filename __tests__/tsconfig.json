@@ -6,6 +6,8 @@
     "paths": {
       "Config/*": ["./__tests__/Config/*"],
       "Data/*": ["./__tests__/Data/*"],
+      "Utils/*": ["./__tests__/Utils/*"],
+      "src": ["./src"],
       "src/*": ["./src/*"]
     }
   },
