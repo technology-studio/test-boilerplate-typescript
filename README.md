@@ -8,5 +8,5 @@ Test boilerplate typescript
 To add new changes, base your branch from `auto-update-dependencies` and also use it as a base for your PR. When the PR is merged, we can then sync the new changes from `auto-update-dependencies` to `master`. We can do it by following oneliner:
 
 ```
-git checkout auto-update-dependencies && git pull && git checkout master && git pull && git merge auto-update-dependencies --no-edit && git push
+git checkout auto-update-dependencies && git pull && yarn && git checkout master && git pull && git merge auto-update-dependencies --no-edit && git push
 ```
