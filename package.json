@@ -46,7 +46,7 @@
     "@txo/tsconfig-cjs": "^2.0.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.2",
-    "concurrently": "^9.1.0",
+    "concurrently": "^9.1.1",
     "depcheck": "^1.4.7",
     "eslint-config-txo-package-typescript": "^1.0.16",
     "husky": "^9.1.7",
