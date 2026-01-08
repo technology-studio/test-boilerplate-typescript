@@ -1,9 +1,3 @@
-/**
- * @Author: Rostislav Simonik <rostislav.simonik@technologystudio.sk>
- * @Date: 2021-05-15T12:05:47+02:00
- * @Copyright: Technology Studio
-**/
-
 const { pathsToModuleNameMapper } = require('ts-jest')
 const { compilerOptions } = require('./__tests__/tsconfig.json');
 
