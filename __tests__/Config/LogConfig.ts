@@ -1,9 +1,3 @@
-/**
- * @Author: Rostislav Simonik <rostislav.simonik@technologystudio.sk>
- * @Date: 2020-03-26T06:03:02+01:00
- * @Copyright: Technology Studio
-**/
-
 import {
   configManager,
   Level,
